@@ -1,0 +1,95 @@
+body * {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+section#main-container.main-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+.column {
+    width: 90%;
+    position: relative;
+    padding: 0;
+}
+div.red-text{
+    color: red;
+}
+section.row {
+    display: inline-block;
+    width: 95%;
+    min-height: 9em;
+    position: relative;
+    border: solid 1px black;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 0.3em;
+    padding: 0.5em 1em 0.5em 4em;
+    margin: 0 auto 1em auto;
+}
+section.row2 {
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0.5em 0 0;
+}
+section.player-row-1{
+    width: 100%;
+}
+section.player-row-2{
+    width: 50%;
+}
+section.player-row-3{
+    width: 33.33%;
+}
+section.player-row-4{
+    width: 25%;
+}
+section.player-row-5{
+    width: 20%;
+}
+section.player-row-6{
+    width: 16.666666667%;
+}
+.cards {
+    display: inline-block;
+    position: relative;
+    width: 5em;
+    height: 7em;
+    border: solid 1px black;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 0.3em;
+    font-weight: bold;
+    padding: .05em;
+    background: white;
+    margin: 0 0 0 -3em;
+    user-select: none;
+}
+span.card-suit{
+    font-size: 0.9em;
+    position: relative;
+    top: -0.6em;
+}
+div.left-corner,div.right-corner {
+    display: inline;
+    float: left;
+    margin-top: -0.2em;
+    text-align: center;
+    user-select: none;
+    padding: 0em;
+    font-size: 0.9em;
+    border-radius: 1em;
+    font-family: 'Noticia Text', serif;
+    vertical-align: top;
+    height: 20%;
+    line-height: 1.2;
+    background-color: transparent;
+}
+div.right-corner{
+    transform: rotate( -180deg );
+    position: absolute;
+    bottom: -0.1em;
+    right: 0.15em;
+}
